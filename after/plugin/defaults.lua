@@ -32,3 +32,6 @@ vim.keymap.set('n', '<C-s>', '<cmd> w <CR>', { desc = 'Save file' })
 
 -- Copy all
 vim.keymap.set('n', '<C-c>', '<cmd> %y+ <CR>', { desc = 'Copy whole file' })
+
+-- Toggle nvim-neo-tree
+vim.keymap.set('n', '<C-n>', '<cmd> Neotree toggle=true <CR>', { desc = 'Toggle neo-tree' })
